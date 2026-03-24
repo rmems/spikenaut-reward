@@ -12,6 +12,13 @@
 //!
 //! Complements the `neuromod` crate (v0.2.1) which provides the SNN neurons and STDP learning.
 //!
+//! ## Provenance
+//!
+//! Extracted from Eagle-Lander, the author's own private neuromorphic GPU supervisor
+//! repository (closed-source). The reward and neuromodulator system ran in production
+//! driving a 16-neuron LIF SNN for Dynex/Quai/Qubic mining optimization before being
+//! open-sourced as a standalone crate.
+//!
 //! ## Quick Start
 //!
 //! ```rust
